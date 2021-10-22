@@ -23,26 +23,44 @@ L'usager devrait pouvoir naviger à travers les articles et les lires, mais il d
 ## État du Projet
 En développement.
 
+---
+
 ## Plan d'implémentation
  Échelle de priorité : 1 (Urgent) -> 10 (À faire en dernier)
 
+ Avec une estimation du temps nécéssaire.
+
 ### Priorité 1 :
-- [x] ~~Setup du framework MVC (folders,config,index,controllers).~~
+- [x] ~~Setup du framework MVC (folders,config,index,controllers). [1h]~~
+- [x] ~~Création du menu. [3h]~~
 
 ### Priorité 2 :
-- [x] ~~Création d'une page d'accueil.~~
-- [x] ~~Construction du layout générale du site(css).~~
+- [ ] Création d'une page d'accueil. [8h]
+- [x] ~~Construction du layout générale du site(css). [2h]~~
 
 ### Priorité 3 :
-- [x] ~~Création du schema de la base de donné.~~
-- [x] ~~Construction css et html du form pour sign up.~~
-- [x] ~~Gestion des liens et redirection.~~
+- [x] ~~Création du schema de la base de donné. [1h]~~
+- [x] ~~Construction css et html du form pour sign up. [2h]~~
+- [x] ~~Gestion des liens et redirection. [2h]~~
 
 ### Priorité 4 :
-- [x] ~~Création de la base de donnée.~~
-- [x] ~~Validation de données sur le sign up et méssage d'erreurs.~~
+- [x] ~~Création de la base de donnée. [3h]~~
+- [x] ~~Validation de données sur le sign up et méssage d'erreurs. [6h]~~
+- [x] ~~Encrypter et salé les mot de passe. [1h]~~
 
 ### Priorité 5 :
-- [x] ~~Liaison code à la base de donnée.~~
-- [x] ~~Construction css et html du form pour login.~~
-- [x] ~~Validation du login.~~
+- [x] ~~Liaison code à la base de donnée. [1h]~~
+- [x] ~~Construction css et html du form pour login. [1h]~~
+- [x] ~~Validation du login. [2h]~~
+
+### Priorité 6 :
+
+- [ ] Création du template pour les articles. [6h]
+
+### Priorité 7 :
+
+### Priorité 8 :
+
+### Priorité 9 :
+
+### Priorité 10 :
