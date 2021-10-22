@@ -19,3 +19,6 @@ L'usager devrait pouvoir naviger à travers les articles et les lires, mais il d
 - GitHub
 - phpMyAdmin
 - XAMPP
+
+## État du Projet
+En développement.
