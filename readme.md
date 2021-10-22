@@ -35,7 +35,7 @@ En développement.
 - [x] ~~Création du menu. [3h]~~
 
 ### Priorité 2 :
-- [ ] Création d'une page d'accueil. [8h]
+- [ ] Création d'une page d'accueil. [4h]
 - [x] ~~Construction du layout générale du site(css). [2h]~~
 
 ### Priorité 3 :
@@ -51,16 +51,24 @@ En développement.
 ### Priorité 5 :
 - [x] ~~Liaison code à la base de donnée. [1h]~~
 - [x] ~~Construction css et html du form pour login. [1h]~~
-- [x] ~~Validation du login. [2h]~~
+- [x] ~~Validation du Login. [2h]~~
 
 ### Priorité 6 :
 
-- [ ] Création du template pour les articles. [6h]
+- [ ] Création du template css et html pour les articles. [6h]
+- [ ] Gestion de Session. [8h]
 
 ### Priorité 7 :
 
+- [ ] Création d'un profile utilisateur(voir ses commentaires, edit/update info perso et commentaires). [24h]
+
 ### Priorité 8 :
 
+- [ ] Gestion et affichage de commentaires par un usager. [16h]
+
 ### Priorité 9 :
+- [ ] Gestion Logout. [4h]
 
 ### Priorité 10 :
+
+- [ ] Ajout de contenu dans les articles. [?h]
