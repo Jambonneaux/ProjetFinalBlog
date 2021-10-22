@@ -1,0 +1,16 @@
+/* Typo */
+
+.title--primary {
+  font-size: 5vw;
+}
+
+.title--secondary {
+  font-size: 3vw;
+  list-style: none;
+  text-decoration: none;
+}
+
+.title--tertiary{
+  font-size: 1vw;
+
+}

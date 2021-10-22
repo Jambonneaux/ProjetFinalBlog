@@ -1,0 +1,80 @@
+.header {
+  background-color: var(--color-primary);
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  gap: 1rem;
+  z-index: 1;
+
+}
+.nav__container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+}
+.container {
+  width: 100%;
+}
+.primary-links {
+  background: none;
+  font-size: var(--size-large);
+  border: none;
+  text-decoration: none;
+  color: var(--color-white);
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 8px;
+  font-weight: bold;
+}
+.primary-links:hover {
+  color: var(--color-tertiary);
+
+}
+
+/*  DROPDOWN MENU
+    src : https://www.youtube.com/watch?v=S-VeYcOCFZw
+*/
+
+.dropdown{
+    position: relative;
+
+}
+
+.dropdown-menu{
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);
+    background-color: var(--color-primary);
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    opacity: 0;
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    transform: translateY(-20px);
+    z-index: 1;
+
+}
+
+.dropdown > .primary-links:focus + .dropdown-menu{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media only screen and (min-width: 768px) {
+
+    .header {
+      background-color: var(--color-primary);
+      display: flex;
+      flex-flow: row;
+      flex-grow: 1;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 1rem;
+      gap: 1rem;
+      z-index: 1;
+
+    }
+}
