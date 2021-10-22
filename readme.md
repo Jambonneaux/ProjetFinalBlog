@@ -26,3 +26,11 @@ En développement.
 ---
 
 ## Feuille de route
+
+- Création d'une page d'accueil.
+- Création du template css et html pour les articles.
+- Gestion de Session.
+- Création d'un profile utilisateur(voir ses commentaires, edit/update info perso et commentaires).
+- Gestion et affichage de commentaires par un usager.
+- Gestion Logout.
+- Ajout de contenu dans les articles. 
