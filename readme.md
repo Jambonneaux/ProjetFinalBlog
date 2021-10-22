@@ -9,3 +9,4 @@ Mon projet sera un blog culinaire qui regroupe quelque bonne adresse ou j'aime b
 Ce projet ne nécéssite aucune installation du côté de l'usager.
 
 ## Utilisation
+L'usager devrait pouvoir naviger à travers les articles et les lires, mais il devra se crée un compte et ce connecter pour pouvoir laisser un commentaire sous dites article.
