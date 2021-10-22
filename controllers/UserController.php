@@ -1,10 +1,12 @@
 <?php
 
+//Redirection vers ma page sign up
 
 function user_controller_adduser(){
   render(VIEW_DIR.'/user/adduser.php');
 }
 
+//Redirection vers méssage d'érreur ou si ok vers page Login
 function user_controller_errors($request){
     require_once(MODEL_DIR.'/user.php');
     $data = user_model_insert($request);

@@ -26,6 +26,8 @@ if (isset($_GET['msg'])) {
     }
 }
  ?>
+
+ <!--Form sign up-->
 <div class="box">
     <div class="wrapper box-flex">
         <h1 class="title-form">Sign up</h1>

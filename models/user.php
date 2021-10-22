@@ -1,4 +1,7 @@
 <?php
+
+//function pour signup (insert)
+
 function user_model_insert($request){
  require(CONNEX_DIR);
  foreach ($request as $key => $value) {
@@ -47,15 +50,21 @@ function user_model_insert($request){
 
  $password_hash = password_hash($password, PASSWORD_BCRYPT);
 
+//insert si valide = true
+
  if ($isValid) {
      $sql = "INSERT INTO User (name, username, password, birthday) VALUES ('$name', '$username', '$password_hash', '$birthday')";
        $result = mysqli_query($con, $sql);
       mysqli_close($con);
  }
+
+ //retourne un num pour afficher les bonnes érreurs
  if (!$errorNb == '' && !$isValid) {
     return $errorNb;
  }
 }
+
+//function pour authentifier un usager(login)
 
 function user_model_auth($request){
      require(CONNEX_DIR);
@@ -66,6 +75,8 @@ function user_model_auth($request){
      $sql = "SELECT * FROM User WHERE username = '$username'";
      $result = mysqli_query($con, $sql);
      mysqli_close($con);
+
+     //Compter les lignes si == 1 ok sinon valide = false
 
      $rowcount = mysqli_num_rows($result);
      $isValid = true;
@@ -85,6 +96,7 @@ function user_model_auth($request){
         $isValid = false;
         $errorNb = 1;
      }
+     //retourne un num pour afficher les bonnes érreurs
      return $errorNb;
 }
 

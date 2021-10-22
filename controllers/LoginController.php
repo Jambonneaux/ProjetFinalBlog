@@ -1,8 +1,12 @@
 <?php
 
+//Redirection vers page Login (btn)
+
 function login_controller_login(){
   render(VIEW_DIR.'/user/login.php');
 }
+
+//Redirection vers méssage d'érreurs sur la page login ou si pk  vers la page index.
 
 function login_controller_auth($request){
     require_once(MODEL_DIR.'/user.php');

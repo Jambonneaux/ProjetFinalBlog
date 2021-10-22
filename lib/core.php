@@ -1,7 +1,12 @@
 <?php
+
+// function addslashes
+
 function safe($param) {
     return addslashes($param);
 }
+
+//function pour afficher mon layout et une page contenu avec un buffer
 
 function render($file, $data = null)
 {
@@ -11,6 +16,8 @@ function render($file, $data = null)
     $content = ob_get_clean();
     include_once($layout_file);
 }
+
+//function de validation de date
 
 function valideDate($date){
     if (preg_match('/^([0-9]{4})-([0-9]{2})-([0-9]{2})$/', $date, $parts)) {
